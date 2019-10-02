@@ -56,7 +56,7 @@ end
 #####################################################
 
 
-  def runner
+def runner
   welcome
   total = initial_round
   
