@@ -56,6 +56,17 @@ end
 #####################################################
 
 def runner
-  # code runner here
+  def runner
+  welcome
+  total = initial_round
+  
+  do 
+    binding.pry
+    hit?(total)
+    display_card_total(total)
+    
+  until total > 21 
+  end_game(total)
+end# code runner here
 end
     
