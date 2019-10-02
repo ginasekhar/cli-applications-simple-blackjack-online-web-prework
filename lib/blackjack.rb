@@ -55,7 +55,7 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
-def runner
+
   def runner
   welcome
   total = initial_round
@@ -68,5 +68,5 @@ def runner
   until total > 21 
   end_game(total)
 end# code runner here
-end
+
     
